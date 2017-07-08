@@ -110,7 +110,7 @@ public class HttpRequest implements Closeable, ProgressObservable {
             }
 
             conn = (HttpURLConnection) reformat(url).openConnection();
-            conn.setRequestProperty("User-Agent", "Mozilla/5.0 (Java) SKMCLauncher");
+            conn.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11");
 
             if (body != null) {
                 conn.setRequestProperty("Content-Type", contentType);
